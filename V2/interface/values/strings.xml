@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjetPtut_V1</string>
+    <string name="acc_nom">Accueil</string>
+    <string name="cont">Contacts</string>
+    <string name="voc">Vocal</string>
+    <string name="ret">Retour</string>
+    <string name="val">Valider</string>
+    <string name="urg">BouttonUrgence</string>
+</resources>
