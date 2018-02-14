@@ -1,4 +1,4 @@
-import java.util.*;
+package com.ptut.projetptut_v1.Semantique;
 
 public abstract class Tuile{
 

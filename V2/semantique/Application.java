@@ -1,4 +1,4 @@
-import java.util.*;
+package com.ptut.projetptut_v1.Semantique;
 
 public class Application{
 
@@ -65,7 +65,7 @@ public class Application{
 		}
 		else{
 
-			System.out.println("Nombre de Niveau max atteind!");
+			System.out.println("Nombre de niveau max atteint!");
 		}
 	}
 

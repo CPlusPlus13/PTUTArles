@@ -1,6 +1,6 @@
-import java.util.*;
+package com.ptut.projetptut_v1.Semantique;
 
-public class Tclassique extends Tuile{
+public class Tclassique extends Tuile {
 
 	private int idNiveau;
 	private int idPanneau;
