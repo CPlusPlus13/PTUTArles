@@ -1,4 +1,4 @@
-package com.enzo.ptut.projetptut_v1;
+package com.ptut.projetptut_v1;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -7,8 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
         t.setTypeface(Typeface.MONOSPACE);
     }
 
-    public void yop(View view) {
+    public void arboVocal(View view) {
         Intent intent= new Intent(MainActivity.this, ArboActivity.class);
         startActivity(intent);
     }
 
-    public void hum(View view) {
+    public void btnUrgent(View view) {
         ImageButton i= (ImageButton) view;
         switch (comptUrg) {
             case 0:
