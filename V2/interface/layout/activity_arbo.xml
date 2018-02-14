@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/i"
+        android:id="@+id/BarreDeControle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/border"
@@ -16,8 +16,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="?attr/listPreferredItemPaddingLeft"
-            android:contentDescription="Retour"
-            android:onClick="bientot"
+            android:contentDescription="@string/ret"
+            android:onClick="btnRetour"
             android:src="@drawable/ic_back"/>
 
         <ImageButton
@@ -27,7 +27,7 @@
             android:padding="?attr/listPreferredItemPaddingLeft"
             android:contentDescription="@string/acc_nom"
             android:layout_weight="2"
-            android:onClick="ret"
+            android:onClick="btnAccueil"
             android:src="@drawable/ic_home"/>
 
         <ImageButton
@@ -35,16 +35,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="?attr/listPreferredItemPaddingLeft"
-            android:contentDescription="valider"
+            android:contentDescription="@string/val"
             android:onClick="accept"
             android:src="@drawable/ic_check"/>
 
     </LinearLayout>
 
-    <LinearLayout
+    <GridView
+        android:id="@+id/gridViewTuile"
+        android:layout_below="@id/BarreDeControle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/i"
+        android:numColumns="3">
+
+    </GridView>
+    
+    <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/BarreDeControle"
         android:gravity="center"
         android:orientation="vertical" >
 
@@ -61,7 +70,7 @@
                 android:layout_weight="2"
                 android:layout_margin="20dp"
                 android:src="@drawable/ic_home"/>
-            
+
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
@@ -107,5 +116,5 @@
 
         </LinearLayout>
 
-    </LinearLayout>
+    </LinearLayout> -->
 </RelativeLayout>
